@@ -1,0 +1,9 @@
+# Define a list of numbers
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# Iterate through the list
+for num in numbers:
+    # Check if the number is even
+    if num % 2 == 0:
+        # Print the even number
+        print(num)

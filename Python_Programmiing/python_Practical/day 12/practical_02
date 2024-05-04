@@ -1,0 +1,7 @@
+def square(number):
+    return number ** 2
+
+# Example usage:
+num = float(input("Enter a number: "))  # Taking input from the user
+result = square(num)
+print("Square of", num, "is", result)

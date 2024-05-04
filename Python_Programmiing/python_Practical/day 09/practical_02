@@ -1,0 +1,16 @@
+# Define two variables
+a = 10
+b = 20
+
+# Print the original values
+print("Before swapping:")
+print("a =", a)
+print("b =", b)
+
+# Swap the values using tuple unpacking
+a, b = b, a
+
+# Print the swapped values
+print("\nAfter swapping:")
+print("a =", a)
+print("b =", b)

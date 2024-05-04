@@ -1,0 +1,8 @@
+# Function to sort a list of tuples by the second item in each tuple
+def sort_by_second_item(tuples_list):
+    return sorted(tuples_list, key=lambda x: x[1])
+
+# Example usage:
+tuples_list = [(1, 5), (3, 2), (2, 8), (4, 1)]
+sorted_list = sort_by_second_item(tuples_list)
+print("Sorted list of tuples by the second item:", sorted_list)

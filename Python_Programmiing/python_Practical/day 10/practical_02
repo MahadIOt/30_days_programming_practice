@@ -1,0 +1,11 @@
+def add_to_tuple(tup, item):
+    # Create a new tuple by combining the existing tuple with the new item
+    new_tuple = tup + (item,)
+    return new_tuple
+
+# Example usage:
+existing_tuple = (1, 2, 3, 4)
+new_item = 5
+new_tuple = add_to_tuple(existing_tuple, new_item)
+print("Original Tuple:", existing_tuple)
+print("New Tuple after adding item:", new_tuple)
